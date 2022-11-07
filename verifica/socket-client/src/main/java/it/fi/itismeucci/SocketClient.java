@@ -10,7 +10,6 @@ public class SocketClient {
     private Socket socket;
     private DataInputStream in;
     private DataOutputStream out;
-    private ClientThread c;
     private Messaggio messaggio = new Messaggio();
     private String userString = "";
     private String serverString;
